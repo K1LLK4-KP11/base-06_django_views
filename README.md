@@ -1,0 +1,1 @@
+# base-06_django_views
