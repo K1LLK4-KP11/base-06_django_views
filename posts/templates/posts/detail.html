@@ -1,0 +1,7 @@
+<h1>all posts</h1>
+{% for Post in Posts %}
+    <h2>{{ Post.title }}</h2>
+    <p>{{ Post.content }}</p>
+    <p>{{ Post.author }}</p>
+    <p>{{ Post.created_at }}</p>
+{% endfor %}
